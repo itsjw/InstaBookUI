@@ -1,9 +1,4 @@
-@import "../assets/MoonTypeface FREE FONT/Moon Bold.otf";
-@import "../assets/MoonTypeface FREE FONT/Moon Light.otf";
-
 $font-family : 'moon';
-
-
 
 @font-face {
 font-family: $font-family;
@@ -11,3 +6,14 @@ src:
 url("../../assets/fonts/moon_bold-webfont.woff") format("woff")
 }
 
+$font-size-logo : 50px;
+
+
+
+$letter-spacing-logo : 2px;
+
+
+
+$color-logo : orange;
+
+$font-weight-logo : bold;

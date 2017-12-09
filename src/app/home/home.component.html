@@ -1,18 +1,18 @@
-
-  Welcome to intabook
-   
-   <div>
-     <label>Login Name</label>
-     <input type="text" [(ngModel)]="userAccountLogin.userName">
+<div id="home-content">
+  <div id="home-logo">INSTABooK</div>
+   <div id="home-login" class="forms">
+     <input  type="text" [(ngModel)]="userAccountLogin.userName" placeholder="login name">
      <br>
-     <label>Login Password</label>
-     <input type="text" [(ngModel)]="userAccountLogin.userPassword">
+     <input type="text" [(ngModel)]="userAccountLogin.userPassword" placeholder="login password">
      <br>
      <button class="login-button" (click)="authenticateUserAccount()">Login</button>
-
      <p>{{loginMessage}}</p>
    </div>
-
-   
-
-
+     <div id="home-signUp" class="forms">
+     <input type="text" [(ngModel)]="userAccountLogin.userName" placeholder="login name">
+     <br>
+     <input type="text" [(ngModel)]="userAccountLogin.userPassword" placeholder="login password">
+     <br>
+     <button class="login-button" (click)="authenticateUserAccount()">Sign Up</button>
+   </div>
+</div>

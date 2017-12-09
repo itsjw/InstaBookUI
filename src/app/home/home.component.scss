@@ -1,9 +1,36 @@
-@import '~sass/_variables.scss';
-@import '~sass/_buttons.scss';
 @import '~sass/_fonts.scss';
 
-div{
-  
+#home-content{  
     font-family: $font-family;
+}
 
+#home-logo{
+    font-family: $font-family;
+    font-size: $font-size-logo;
+    font-weight : $font-weight-logo;
+    color : $color-logo;
+    letter-spacing : $letter-spacing-logo;
+    text-align: center;
+    display: inline-block;
+}
+
+.forms{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 100px 20px;
+    height: 150px;
+
+    input{
+        margin-bottom: 10px;
+        padding: 5px 10px;
+    }
+}
+
+#home-login{
+    float: left;
+}
+
+#home-signUp{
+    float: right;
 }

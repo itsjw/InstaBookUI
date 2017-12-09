@@ -1,0 +1,11 @@
+1) Design ghost buttuon
+
+2) Shadow
+
+3) Sign up -> move to home page
+            -> add photo
+            -> add info (address)
+            
+4) login - > move to home page            
+
+
