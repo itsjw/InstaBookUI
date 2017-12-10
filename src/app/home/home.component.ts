@@ -31,6 +31,7 @@ export class HomeComponent implements OnInit {
            if(response.userId == 0){
               alert('wrong password');
           }else{
+             this.homeService.setLoginUser(response);
              this.router.navigate(['userAccount']);
           }
         }

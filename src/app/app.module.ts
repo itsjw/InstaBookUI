@@ -11,6 +11,9 @@ import { HomeComponent } from './home/home.component';
 import { UserAccountComponent } from './user-account/user-account.component';
 import {RouterModule, Routes} from '@angular/router';
 import { HomeService } from './home.service';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { UserHomeComponent } from './user-home/user-home.component';
 
 const appRoutes: Routes = [
   {path : 'home', component : HomeComponent},
@@ -23,7 +26,10 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    UserAccountComponent
+    UserAccountComponent,
+    HeaderComponent,
+    FooterComponent,
+    UserHomeComponent
   ],
   imports: [
     BrowserModule,

@@ -13,6 +13,8 @@ export class HomeService {
    login : UserAccountLogin;
    private END_URL : string;
    private  VALIDATE_USER : string;
+   private loginUser : User;
+
   constructor(private http: HttpClient) { 
     this.END_URL = 'http://localhost:8080/InstaBook/';
     this.VALIDATE_USER  = 'userAccount/validateUser';
@@ -30,6 +32,13 @@ export class HomeService {
     });
   }
 
+  setLoginUser(loginUser : User){
+    this.loginUser = loginUser;
+  }
+
+  getLoginUser() : User{
+    return this.loginUser;
+  }
   myData() {
     return 'This is my data, man!';
   }

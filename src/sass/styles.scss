@@ -5,3 +5,12 @@
 
 @import "../assets/MoonTypeface FREE FONT/Moon Bold.otf";
 @import "../assets/MoonTypeface FREE FONT/Moon Light.otf";
+
+
+
+@media only screen and (min-width : 768px) {
+    #footerContent{
+        display: none;
+    }
+}
+
