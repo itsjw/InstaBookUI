@@ -3,3 +3,9 @@ https://loiane.com/2017/08/angular-hide-navbar-login-page/
 
 2 RWD : 
 https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/
+
+3) SCSS variables: 
+https://codepen.io/jakealbaugh/post/using-sass-functions-to-access-complex-variable-maps
+
+4) Scroll top:
+https://waterlooblue.com/scroll-to-top-with-angular-4-using-hostlistener/

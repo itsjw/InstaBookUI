@@ -25,6 +25,8 @@ export class HomeComponent implements OnInit {
 
     //http://jasonwatmore.com/post/2016/09/29/angular-2-user-registration-and-login-example-tutorial
     authenticateUserAccount(){
+     this.router.navigate(['userAccount']);
+     /* 
      this.homeService.authenticateUserAccount(this.userAccountLogin)
       .subscribe(response =>  
         {
@@ -35,7 +37,9 @@ export class HomeComponent implements OnInit {
              this.router.navigate(['userAccount']);
           }
         }
+        
       )
+      */
 
     }
 

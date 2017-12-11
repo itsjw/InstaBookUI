@@ -18,6 +18,7 @@ import { UserHomeComponent } from './user-home/user-home.component';
 const appRoutes: Routes = [
   {path : 'home', component : HomeComponent},
   {path : 'userAccount', component : UserAccountComponent},
+  {path : 'userHome', component : UserHomeComponent},
   {path : '', redirectTo: '/home', pathMatch:'full'},
   {path : '**', redirectTo: '/home', pathMatch:'full'}
 ]
