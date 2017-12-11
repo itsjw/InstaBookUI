@@ -1,52 +1,62 @@
-#userAccountContent{
-   
-    #userAccount-profile-wrapper{
-        #userAccount-profile-box{
-         height: auto;
-        border: 1px solid white;
-        background-color: goldenrod;
-        #userAccount-user-profile{
-            background-image: url('../../assets/images/tech.png');
-    border: 1px solid black;
-    width: 90%;
-    height: 150px;
-    margin: 30px auto 0;
-    padding: 10px;
-    position: relative;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-            #userAccount-user-image{
-                    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    bottom: -25%;
-    transform: translateX(-50%);
-    border: 4px solid white;
-    border-radius: 50%;
-            }
+#userAccountContent {
+  #userAccount-profile-wrapper {
+      background-color: #fafafa;
+    #userAccount-profile-box {
+      height: auto;
+      border: 1px solid white;
+      #userAccount-user-profile {
+        background-image: url('../../assets/images/tech.png');
+        border: 1px solid black;
+        width: 90%;
+        height: 150px;
+        margin: 30px auto 0;
+        padding: 10px;
+        position: relative;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        #userAccount-user-image {
+          width: 100px;
+          height: 100px;
+          position: absolute;
+          left: 50%;
+          bottom: -25%;
+          transform: translateX(-50%);
+          border: 4px solid white;
+          border-radius: 50%;
         }
-        #userAccount-user-info{
-         position: relative;
-    padding-top: 12%;
-    width: 90%;
-    margin: 0 auto 30px;
-    text-align: center;
-    border: 1px solid;
-    border-top: none;
+      }
+      #userAccount-user-info {
+        position: relative;
+        padding-top: 12%;
+        width: 90%;
+        margin: 0 auto 30px;
+        text-align: center;
+        border: 1px solid;
+        border-top: none;
         border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-            }
+        border-bottom-left-radius: 5px;
+       
+      }
     }
-    }
-    #user-content-wrapper{
-         height: 1000px;
+    #userAccount-share{
         border: 1px solid black;
-        background-color: blue;
+    margin: 20px 15px 20px 0;
+    padding: 20px 15px;
     }
-    #user-feed-wrapper{
-         height: 1000px;
-        border: 1px solid black;
-        background-color: yellowgreen;
+    #userAccount-show{
+            border: 1px solid black;
+    margin: 0 17px 20px 0;
+    padding: 10px
     }
+  }
+  #user-content-wrapper {
+    height: 1000px;
+    border: 1px solid black;
+    background-color: blue;
+  }
+  #user-feed-wrapper {
+    height: 1000px;
+    border: 1px solid black;
+    background-color: yellowgreen;
+  }
 }

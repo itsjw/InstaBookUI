@@ -1,0 +1,5 @@
+@import "../sass/_global.scss";
+
+.appComponent-padding-top {
+    padding-top: map-get($height, height-header);
+}
