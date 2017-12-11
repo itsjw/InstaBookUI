@@ -1,6 +1,6 @@
 #userAccountContent {
+        background-color: #fafafa;
   #userAccount-profile-wrapper {
-      background-color: #fafafa;
     #userAccount-profile-box {
       height: auto;
       border: 1px solid white;
@@ -35,28 +35,37 @@
         border-top: none;
         border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
-       
       }
     }
-    #userAccount-share{
-        border: 1px solid black;
-    margin: 20px 15px 20px 0;
-    padding: 20px 15px;
+    #userAccount-share {
+      border: 1px solid black;
+      margin: 20px 15px 20px 0;
+      padding: 20px 15px;
     }
-    #userAccount-show{
+    #userAccount-show {
+      border: 1px solid black;
+      margin: 0 17px 20px 0;
+      padding: 10px
+    }
+  }
+  #userAccount-content-wrapper {
+    height: auto;
+    border: 1px solid black;
+    padding: 20px 0;
+    #userAccount-content-box {
+       .userAccount-content{
             border: 1px solid black;
-    margin: 0 17px 20px 0;
-    padding: 10px
+            height: 400px;
+            width: 80%;
+            margin: auto;
+            background-color: #fafafa;
+            margin: 10px auto;
+        }
     }
   }
-  #user-content-wrapper {
+  #userAccount-feed-wrapper {
     height: 1000px;
     border: 1px solid black;
-    background-color: blue;
-  }
-  #user-feed-wrapper {
-    height: 1000px;
-    border: 1px solid black;
-    background-color: yellowgreen;
   }
 }
+
