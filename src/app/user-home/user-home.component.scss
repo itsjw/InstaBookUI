@@ -1,0 +1,54 @@
+#userHomeContent {
+  #userHome-heading {
+    #userHome-user-profile {
+      background-image: url('../../assets/images/tech.png');
+      border: 1px solid black;
+      width: 100%;
+      height: 150px;
+      padding: 10px;
+      position: relative;
+      #userHome-user-image {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        bottom: -25%;
+        transform: translateX(-50%);
+        border: 4px solid white;
+        border-radius: 50%;
+      }
+    }
+    #userHome-user-info {
+      position: relative;
+      padding-top: 12%;
+      width: 100%;
+      text-align: center;
+      border: 1px solid;
+      border-top: none;
+    }
+  }
+  #userHome-activity-info{
+      border: 1px solid black;
+  }
+  #userHome-friends-wrapper{
+       border: 1px solid;
+      h3{
+          text-align: center;
+          letter-spacing: 2px;
+      }
+      #userHome-friends-box{
+         border: 1px solid;
+         .userHome-friends{
+             text-align: center;
+             width: 25%;
+             float: left;
+             border: 1px solid black;
+             img{
+                 width: 80%;
+                 margin: 5px auto;
+                 display: block;
+             }
+         }
+      }
+  }
+}
